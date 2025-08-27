@@ -191,7 +191,7 @@
                 try {
                     const params = new URLSearchParams(window.location.search);
                     const customLink = params.get('link');
-                    const delay = parseInt(params.get('delay')) || 2;
+                    const delay = parseInt(params.get('delay')) || 0.5;
 
                     if (!customLink) {
                         this.showError('未找到要重定向的链接参数。请确保URL中包含 "link" 参数。');

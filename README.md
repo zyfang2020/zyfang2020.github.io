@@ -160,7 +160,7 @@
             <h3>使用说明：</h3>
             <p><strong>URL格式：</strong></p>
             <div class="url-example">
-                https://zyfang2020.github.io/?link=zotero://select/items/ABC123
+                https://zyfang2020.github.io/?link=zotero://select/library/items/your-item-key
             </div>
             <p><strong>支持的协议：</strong></p>
             <ul>
